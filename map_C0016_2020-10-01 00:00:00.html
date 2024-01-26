@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_59aee1a304a8978070f7567c0020c581 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-ant-path@1.1.2/dist/leaflet-ant-path.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_59aee1a304a8978070f7567c0020c581" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_59aee1a304a8978070f7567c0020c581 = L.map(
+                "map_59aee1a304a8978070f7567c0020c581",
+                {
+                    center: [36.84406, 10.2729],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_316ae292441e20957b7ab36868905e99 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_59aee1a304a8978070f7567c0020c581);
+        
+    
+            var marker_1782374c3d83796f1012e254481be34f = L.marker(
+                [36.84406, 10.2729],
+                {}
+            ).addTo(map_59aee1a304a8978070f7567c0020c581);
+        
+    
+            var icon_6d9244804be05130906f26357a205284 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1782374c3d83796f1012e254481be34f.setIcon(icon_6d9244804be05130906f26357a205284);
+        
+    
+        var popup_2cefc28bf1b92d5a13868455124a3de0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dfa43b044a05938dc3d2aaec169d075 = $(`<div id="html_8dfa43b044a05938dc3d2aaec169d075" style="width: 100.0%; height: 100.0%;">Valomnia</div>`)[0];
+                popup_2cefc28bf1b92d5a13868455124a3de0.setContent(html_8dfa43b044a05938dc3d2aaec169d075);
+            
+        
+
+        marker_1782374c3d83796f1012e254481be34f.bindPopup(popup_2cefc28bf1b92d5a13868455124a3de0)
+        ;
+
+        
+    
+    
+            var marker_b17d4eb1587d9259d85772d25f2ceec7 = L.marker(
+                [33.9365867, 10.0699207],
+                {}
+            ).addTo(map_59aee1a304a8978070f7567c0020c581);
+        
+    
+            var icon_88c21e72f269cba1171beaf8740e8384 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b17d4eb1587d9259d85772d25f2ceec7.setIcon(icon_88c21e72f269cba1171beaf8740e8384);
+        
+    
+        var popup_67ed73b9e23ca09524c45c6a9d0f2a7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ede41cadcd946696ac60b8c21746146 = $(`<div id="html_3ede41cadcd946696ac60b8c21746146" style="width: 100.0%; height: 100.0%;">CirIu74JD</div>`)[0];
+                popup_67ed73b9e23ca09524c45c6a9d0f2a7a.setContent(html_3ede41cadcd946696ac60b8c21746146);
+            
+        
+
+        marker_b17d4eb1587d9259d85772d25f2ceec7.bindPopup(popup_67ed73b9e23ca09524c45c6a9d0f2a7a)
+        ;
+
+        
+    
+    
+            ant_path_ab71a9b0aaad67541b604047f5de517a = L.polyline.antPath(
+              [[36.84406, 10.2729], [33.9365867, 10.0699207], [33.9365867, 10.0699207]],
+              {"bubblingMouseEvents": true, "color": "blue", "dashArray": [10, 20], "dashOffset": null, "delay": 1000, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "hardwareAcceleration": false, "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "paused": false, "pulseColor": "#FFFFFF", "reverse": false, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+        ).addTo(map_59aee1a304a8978070f7567c0020c581);
+        
+</script>
+</html>
